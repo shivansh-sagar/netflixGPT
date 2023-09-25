@@ -1,8 +1,8 @@
 import images from "../Contants/Images";
 const Header = () => {
   return (
-    <div>
-      <img src={images.Netflix_logo} alt="" />
+    <div className=" z-10 absolute w-full  bg-gradient-to-b from-black ">
+      <img className="w-40" src={images.Netflix_logo} alt="logo" />
     </div>
   );
 };
